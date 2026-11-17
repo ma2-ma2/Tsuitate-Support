@@ -1,0 +1,18 @@
+:root { --paper: #f4f1e6; --card: #eae6d6; --ink: #43412f; --sub: #6f6c5c; --line: #d8d3bf; }
+@media (prefers-color-scheme: dark) { :root { --paper: #1f1e17; --card: #2b2a21; --ink: #e9e3cf; --sub: #b3ad98; --line: #3c3a2e; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.8 -apple-system, "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+.hero { padding: 56px 0 32px; text-align: center; }
+.hero.compact { text-align: left; padding: 40px 0 16px; }
+.hero img { width: 96px; height: 96px; border-radius: 22px; }
+.hero h1 { margin: 12px 0 4px; font-size: 28px; }
+.eyebrow { margin: 0; color: var(--sub); font-weight: 600; }
+h2 { font-size: 19px; margin: 32px 0 8px; }
+section { background: var(--card); border-radius: 18px; padding: 4px 20px 16px; margin: 16px 0; }
+section h2 { margin-top: 16px; }
+a { color: var(--ink); font-weight: 600; }
+.qa dt { font-weight: 700; margin-top: 14px; }
+.qa dd { margin: 4px 0 0; color: var(--sub); }
+.button { display: inline-block; background: var(--ink); color: var(--paper); padding: 10px 20px; border-radius: 999px; text-decoration: none; }
+footer { color: var(--sub); font-size: 13px; text-align: center; padding: 32px 0 48px; }
